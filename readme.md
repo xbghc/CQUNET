@@ -16,7 +16,15 @@ requests模块
 
 ` python login.py`或`python3 login.py`
 
+我是创建一个`login.bat`文件到开机启动文件夹，内容是
 
+``` bash
+cd H:\代码\CQU服务\校园网
+python login.py
+pause
+```
+
+这样就可以自动登录了
 
 
 
